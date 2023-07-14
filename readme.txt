@@ -5,7 +5,7 @@ This is a sample dry run command = "aws-ssm-copy -r --dry-run --target-path /des
 Steps.
 
 1. Login with saml2aws 
-$ saml2aws login -a terragon --mfa Auto
+$ saml2aws login -a username --mfa Auto
 
 2. Obtain .env credentials using /
 $ saml2aws script
