@@ -4,8 +4,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Define the command you want to execute
-command = 'aws-ssm-copy -r --target-path /beta /dev'
+# Define the command you want to execute (Default below is a dry-run from /dev to /beta)
+command = 'aws-ssm-copy -r --dry-run --target-path /beta /dev'
 
 # Execute the command
 result = subprocess.run(command, shell=True, capture_output=True, text=True)
