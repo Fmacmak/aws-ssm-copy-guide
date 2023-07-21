@@ -1,5 +1,5 @@
 Steps to copy from '/dev' to '/beta' in SSM using credentials from saml2aws and aws-ssm-copy. For more info see https://github.com/binxio/aws-ssm-copy
-
+NOTE: >python == v.3.6 is needed to use aws-ssm-copy
 This is a sample dry run command = "aws-ssm-copy -r --dry-run --target-path /destination /source"
 
 Steps.
